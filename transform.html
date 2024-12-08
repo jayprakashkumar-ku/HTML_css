@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css transform</title>
+    <style>
+.box{
+    height: 70px;
+    width: 70px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: plum;
+    position: relative;
+    top:50px ;
+    left:50px ;
+    text-align: center;
+    /* transform: rotate(45deg); */
+    transition: all 0.5s step-start;
+}
+.box:hover{
+    /* transform: rotate(360deg); */
+    /* transform: rotatex(360deg); */
+    /* transform: rotatey(360deg); */
+    /* transform: rotatez(360deg); */
+    /* transform: scale(2);*/
+    
+    transform: skew(45deg);
+} 
+    </style>
+</head>
+<body><center>
+    <div class="box">Skew</div>
+</center>
+</body>
+</html>

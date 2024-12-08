@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition</title>
+    <style>
+        .pseudo{
+            height: 125px;
+            width: 325px;
+            background-color: orangered;
+            border-radius: 10px;
+            /* transition-property: all;
+            transition-duration: 1s;
+            transition-timing-function: steps(3);
+            transition-delay: 0s; */
+            transition: all 1s steps(4) 0s;
+            text-align: center;
+            
+
+        }
+        .pseudo:hover{
+            height: 30px;
+            width: 160px;
+            background-color: rgb(42, 222, 42);
+        }
+        .pseudo:active{
+            height: 30px;
+            width: 160px;
+            background-color: white;
+            border: solid 2px purple;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <button class="pseudo">Click me</b></button>
+</center>
+</body>
+</html>

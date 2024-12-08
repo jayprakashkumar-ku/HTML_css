@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+#container{
+height: 600px;
+width: 600px;
+border: 3px solid black;
+margin: 5px;
+display:flex ;
+background-color: lavender;
+text-align: center;
+/* flex-direction: row-reverse; */
+flex-direction: column-reverse;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 5px ;
+    padding: 5px;
+    border: 2px black solid;
+}
+#box1{
+    background-color: rgb(19, 180, 180);
+}
+#box2{
+    background-color: blueviolet;
+}
+#box3{
+    background-color: yellow;
+}
+#box4{
+    background-color:tomato;
+}
+#box5{
+    background-color:goldenrod;
+}
